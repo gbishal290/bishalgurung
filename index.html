@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR_NAME | IT Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+        .hero { background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%); color: white; padding: 100px 0; }
+        .hero img { width: 200px; height: 200px; object-fit: cover; border: 5px solid white; }
+        .section-title { position: relative; margin: 60px 0 40px; }
+        .section-title h2::after { content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 50px; height: 3px; background: #0d6efd; }
+        .skill-bar { background: #e9ecef; height: 10px; border-radius: 5px; overflow: hidden; }
+        .skill-progress { height: 100%; background: linear-gradient(90deg, #0d6efd, #6610f2); transition: width 2s; }
+        .card { transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-laptop-code"></i> YOUR_NAME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+            <img src="your-photo.jpg" alt="YOUR_NAME" class="rounded-circle mb-4">
+            <h1 class="display-4 fw-bold mb-3">YOUR_NAME</h1>
+            <h2 class="display-6 mb-4">IT Engineer | Chandigarh University Graduate</h2>
+            <p class="lead mb-4">BE Information Technology (7.38 CGPA) | Bharatpur, Bagmati Province, Nepal<br>Networking | Digital Marketing | Content Creation</p>
+            <a href="resume.pdf" class="btn btn-light btn-lg me-3"><i class="fas fa-download me-2"></i>Download CV</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg"><i class="fas fa-envelope me-2"></i>Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title text-center"><h2>About Me</h2></div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>IT Professional from Nepal</h3>
+                    <p>BE Information Technology graduate from Chandigarh University with 7.38 CGPA. Passionate about networking (CCNA prep), digital marketing, and content creation. Currently based in Bharatpur, Bagmati Province, seeking Master's opportunities abroad and IT roles in Nepal.</p>
+                    <p>Experienced in social media growth, poster/video creation for platforms, and technical projects. Preparing for Nepal Engineering Council licensing exam.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="row g-3">
+                        <div class="col-6"><div class="bg-primary text-white p-3 rounded"><i class="fas fa-graduation-cap fa-2x"></i><div>BE IT Graduate</div></div></div>
+                        <div class="col-6"><div class="bg-success text-white p-3 rounded"><i class="fas fa-network-wired fa-2x"></i><div>Networking</div></div></div>
+                        <div class="col-6"><div class="bg-warning text-white p-3 rounded"><i class="fas fa-chart-line fa-2x"></i><div>Digital Marketing</div></div></div>
+                        <div class="col-6"><div class="bg-info text-white p-3 rounded"><i class="fas fa-video fa-2x"></i><div>Content Creation</div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center"><h2>Skills</h2></div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h5>Technical Skills</h5>
+                    <div class="mb-3">
+                        <label>Networking (CCNA Prep)</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <label>HTML/CSS/JavaScript</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <label>Digital Marketing</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Soft Skills & Tools</h5>
+                    <div class="mb-3">
+                        <label>Facebook/Instagram Growth</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <label>Content Creation (Canva/Bing)</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <label>Microsoft Office 365</label>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="section-title text-center"><h2>Experience & Projects</h2></div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">BE Information Technology</h5>
+                            <p class="card-text">Chandigarh University, Mohali, Punjab, India<br>CGPA: 7.38/10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Social media growth strategies, Facebook page management, poster and video content creation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Nepal Engineering License</h5>
+                            <p class="card-text">Preparing for Nepal Engineering Council IT licensing exam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="section-title text-center"><h2>Contact</h2></div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-4">
+                            <i class="fas fa-map-marker-alt fa-3x mb-3 text-primary"></i>
+                            <h5>Bharatpur, Bagmati Province</h5>
+                            <p>Nepal</p>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <i class="fas fa-envelope fa-3x mb-3 text-primary"></i>
+                            <h5>Email</h5>
+                            <p>your.email@gmail.com</p>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <i class="fab fa-linkedin fa-3x mb-3 text-primary"></i>
+                            <h5>LinkedIn</h5>
+                            <p>linkedin.com/in/yourprofile</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://wa.me/YOUR_PHONE" class="btn btn-primary btn-lg me-3"><i class="fab fa-whatsapp me-2"></i>WhatsApp</a>
+                        <a href="#" class="btn btn-outline-light btn-lg"><i class="fas fa-file-pdf me-2"></i>Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
